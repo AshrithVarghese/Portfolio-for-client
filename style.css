@@ -324,7 +324,7 @@ footer{
   transition: 0.5s ease;
 }
 
-@media (max-width: 981px) {
+@media (max-width: 481px) {
    nav img{
       width: 40px;
       cursor: pointer;
