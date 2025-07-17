@@ -23,10 +23,9 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Skin Cancer Detection - Image Analyzing Web Application"
+              description="A web-based application designed to analyze skin lesion images and detect potential signs of skin cancer using machine learning and image processing techniques. The goal was to create a user-friendly, accessible platform for early detection support."
               ghLink=""
               demoLink=""
             />
@@ -34,10 +33,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Auto Application - Frontend Vehicle Booking Web App"
+              description="A responsive web application designed for users to view, explore, and book automobiles online. This project aimed to replicate the frontend of a real-world car rental or purchase platform, focusing on clean UI, interactivity, and user flow."
               ghLink=""
               demoLink=""
             />
