@@ -6,7 +6,12 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiJira,
+  SiAsana,
+
 } from "react-icons/si";
+import { BsMicrosoftTeams } from "react-icons/bs";
+import { DiMysql } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -15,16 +20,19 @@ function Toolstack() {
         <SiMacos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiAsana/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <BsMicrosoftTeams />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <DiMysql/>
       </Col>
     </Row>
   );
